@@ -7,7 +7,7 @@ import { TopheadingComponent } from './topheading/topheading.component';
 const routes: Routes = [
   {path:'',component:TopheadingComponent}, //home
   {path:'tech',component:TechnewsComponent},
-  {path:'bussiness',component:BussinessnewsComponent}
+  {path:'business',component:BussinessnewsComponent}
 ];
 
 @NgModule({

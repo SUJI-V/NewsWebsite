@@ -10,10 +10,10 @@ export class BussinessnewsComponent implements OnInit {
 
   constructor(private _services : NewsapiservicesService) { }
 
-  bussinessDisplay: any = [];
+  businessDisplay: any = [];
   ngOnInit(): void {
-    this._services.bussinessNews().subscribe((result)=>{
-    this.bussinessDisplay = result.articles;
+    this._services.businessNews().subscribe((result)=>{
+    this.businessDisplay = result.articles;
     });
   }
 
